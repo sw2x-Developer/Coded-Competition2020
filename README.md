@@ -15,10 +15,8 @@ This repository contains all my projects that is going to be made or already bee
 git clone the repository to test the projects.
 
 ```sh
-$ mkdir handsome
-$ cd handsome
-$ git clone https://github.com/sw2x-Developer/Coded-Competition2020.git <Project name>
-$ cd <Project name>
+$ git clone https://github.com/sw2x-Developer/Coded-Competition2020.git Handsome
+$ cd Handsome
 ```
 - Also there is going to be a tutorial on the README.MD file of every project file
 
