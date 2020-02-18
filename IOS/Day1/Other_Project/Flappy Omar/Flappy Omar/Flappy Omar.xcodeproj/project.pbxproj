@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043D813A23F869450083927B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D813923F869450083927B /* AppDelegate.swift */; };
+		043D813C23F869450083927B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 043D813B23F869450083927B /* GameScene.sks */; };
+		043D813E23F869450083927B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 043D813D23F869450083927B /* Actions.sks */; };
+		043D814023F869450083927B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D813F23F869450083927B /* GameScene.swift */; };
+		043D814223F869450083927B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D814123F869450083927B /* GameViewController.swift */; };
+		043D814523F869450083927B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D814323F869450083927B /* Main.storyboard */; };
+		043D814723F869480083927B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043D814623F869480083927B /* Assets.xcassets */; };
+		043D814A23F869480083927B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D814823F869480083927B /* LaunchScreen.storyboard */; };
+		043D815523F869480083927B /* Flappy_OmarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D815423F869480083927B /* Flappy_OmarTests.swift */; };
+		043D816023F869480083927B /* Flappy_OmarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D815F23F869480083927B /* Flappy_OmarUITests.swift */; };
+		043D816F23F86BC60083927B /* Coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 043D816D23F86BC60083927B /* Coin.mp3 */; };
+		043D817023F86BC60083927B /* player2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 043D816E23F86BC60083927B /* player2.atlas */; };
+		043D817223FB09C70083927B /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D817123FB09C70083927B /* GameElements.swift */; };
+		043D817423FB24EB0083927B /* Godzilla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 043D817323FB24EB0083927B /* Godzilla.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043D815123F869480083927B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043D812E23F869450083927B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043D813523F869450083927B;
+			remoteInfo = "Flappy Omar";
+		};
+		043D815C23F869480083927B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043D812E23F869450083927B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043D813523F869450083927B;
+			remoteInfo = "Flappy Omar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043D813623F869450083927B /* Flappy Omar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flappy Omar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D813923F869450083927B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		043D813B23F869450083927B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		043D813D23F869450083927B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		043D813F23F869450083927B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		043D814123F869450083927B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		043D814423F869450083927B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043D814623F869480083927B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043D814923F869480083927B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043D814B23F869480083927B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D815023F869480083927B /* Flappy OmarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy OmarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D815423F869480083927B /* Flappy_OmarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flappy_OmarTests.swift; sourceTree = "<group>"; };
+		043D815623F869480083927B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D815B23F869480083927B /* Flappy OmarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy OmarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D815F23F869480083927B /* Flappy_OmarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flappy_OmarUITests.swift; sourceTree = "<group>"; };
+		043D816123F869480083927B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D816D23F86BC60083927B /* Coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Coin.mp3; sourceTree = "<group>"; };
+		043D816E23F86BC60083927B /* player2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = player2.atlas; sourceTree = "<group>"; };
+		043D817123FB09C70083927B /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		043D817323FB24EB0083927B /* Godzilla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Godzilla.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043D813323F869450083927B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D814D23F869480083927B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D815823F869480083927B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043D812D23F869450083927B = {
+			isa = PBXGroup;
+			children = (
+				043D813823F869450083927B /* Flappy Omar */,
+				043D815323F869480083927B /* Flappy OmarTests */,
+				043D815E23F869480083927B /* Flappy OmarUITests */,
+				043D813723F869450083927B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043D813723F869450083927B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043D813623F869450083927B /* Flappy Omar.app */,
+				043D815023F869480083927B /* Flappy OmarTests.xctest */,
+				043D815B23F869480083927B /* Flappy OmarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043D813823F869450083927B /* Flappy Omar */ = {
+			isa = PBXGroup;
+			children = (
+				043D817323FB24EB0083927B /* Godzilla.mp3 */,
+				043D813923F869450083927B /* AppDelegate.swift */,
+				043D813B23F869450083927B /* GameScene.sks */,
+				043D813D23F869450083927B /* Actions.sks */,
+				043D813F23F869450083927B /* GameScene.swift */,
+				043D814123F869450083927B /* GameViewController.swift */,
+				043D814323F869450083927B /* Main.storyboard */,
+				043D814623F869480083927B /* Assets.xcassets */,
+				043D816D23F86BC60083927B /* Coin.mp3 */,
+				043D816E23F86BC60083927B /* player2.atlas */,
+				043D814823F869480083927B /* LaunchScreen.storyboard */,
+				043D814B23F869480083927B /* Info.plist */,
+				043D817123FB09C70083927B /* GameElements.swift */,
+			);
+			path = "Flappy Omar";
+			sourceTree = "<group>";
+		};
+		043D815323F869480083927B /* Flappy OmarTests */ = {
+			isa = PBXGroup;
+			children = (
+				043D815423F869480083927B /* Flappy_OmarTests.swift */,
+				043D815623F869480083927B /* Info.plist */,
+			);
+			path = "Flappy OmarTests";
+			sourceTree = "<group>";
+		};
+		043D815E23F869480083927B /* Flappy OmarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				043D815F23F869480083927B /* Flappy_OmarUITests.swift */,
+				043D816123F869480083927B /* Info.plist */,
+			);
+			path = "Flappy OmarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043D813523F869450083927B /* Flappy Omar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043D816423F869480083927B /* Build configuration list for PBXNativeTarget "Flappy Omar" */;
+			buildPhases = (
+				043D813223F869450083927B /* Sources */,
+				043D813323F869450083927B /* Frameworks */,
+				043D813423F869450083927B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flappy Omar";
+			productName = "Flappy Omar";
+			productReference = 043D813623F869450083927B /* Flappy Omar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043D814F23F869480083927B /* Flappy OmarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043D816723F869480083927B /* Build configuration list for PBXNativeTarget "Flappy OmarTests" */;
+			buildPhases = (
+				043D814C23F869480083927B /* Sources */,
+				043D814D23F869480083927B /* Frameworks */,
+				043D814E23F869480083927B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043D815223F869480083927B /* PBXTargetDependency */,
+			);
+			name = "Flappy OmarTests";
+			productName = "Flappy OmarTests";
+			productReference = 043D815023F869480083927B /* Flappy OmarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043D815A23F869480083927B /* Flappy OmarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043D816A23F869480083927B /* Build configuration list for PBXNativeTarget "Flappy OmarUITests" */;
+			buildPhases = (
+				043D815723F869480083927B /* Sources */,
+				043D815823F869480083927B /* Frameworks */,
+				043D815923F869480083927B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043D815D23F869480083927B /* PBXTargetDependency */,
+			);
+			name = "Flappy OmarUITests";
+			productName = "Flappy OmarUITests";
+			productReference = 043D815B23F869480083927B /* Flappy OmarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043D812E23F869450083927B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Sw2x;
+				TargetAttributes = {
+					043D813523F869450083927B = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					043D814F23F869480083927B = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 043D813523F869450083927B;
+					};
+					043D815A23F869480083927B = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 043D813523F869450083927B;
+					};
+				};
+			};
+			buildConfigurationList = 043D813123F869450083927B /* Build configuration list for PBXProject "Flappy Omar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043D812D23F869450083927B;
+			productRefGroup = 043D813723F869450083927B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043D813523F869450083927B /* Flappy Omar */,
+				043D814F23F869480083927B /* Flappy OmarTests */,
+				043D815A23F869480083927B /* Flappy OmarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043D813423F869450083927B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D814523F869450083927B /* Main.storyboard in Resources */,
+				043D816F23F86BC60083927B /* Coin.mp3 in Resources */,
+				043D813C23F869450083927B /* GameScene.sks in Resources */,
+				043D814723F869480083927B /* Assets.xcassets in Resources */,
+				043D817423FB24EB0083927B /* Godzilla.mp3 in Resources */,
+				043D817023F86BC60083927B /* player2.atlas in Resources */,
+				043D814A23F869480083927B /* LaunchScreen.storyboard in Resources */,
+				043D813E23F869450083927B /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D814E23F869480083927B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D815923F869480083927B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043D813223F869450083927B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D817223FB09C70083927B /* GameElements.swift in Sources */,
+				043D814023F869450083927B /* GameScene.swift in Sources */,
+				043D814223F869450083927B /* GameViewController.swift in Sources */,
+				043D813A23F869450083927B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D814C23F869480083927B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D815523F869480083927B /* Flappy_OmarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D815723F869480083927B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D816023F869480083927B /* Flappy_OmarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043D815223F869480083927B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043D813523F869450083927B /* Flappy Omar */;
+			targetProxy = 043D815123F869480083927B /* PBXContainerItemProxy */;
+		};
+		043D815D23F869480083927B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043D813523F869450083927B /* Flappy Omar */;
+			targetProxy = 043D815C23F869480083927B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043D814323F869450083927B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043D814423F869450083927B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043D814823F869480083927B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043D814923F869480083927B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043D816223F869480083927B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		043D816323F869480083927B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043D816523F869480083927B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DUUDN8Q7WV;
+				INFOPLIST_FILE = "Flappy Omar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sw2x.Flappy-Omar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043D816623F869480083927B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DUUDN8Q7WV;
+				INFOPLIST_FILE = "Flappy Omar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sw2x.Flappy-Omar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		043D816823F869480083927B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flappy OmarTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sw2x.Flappy-OmarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flappy Omar.app/Flappy Omar";
+			};
+			name = Debug;
+		};
+		043D816923F869480083927B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flappy OmarTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sw2x.Flappy-OmarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flappy Omar.app/Flappy Omar";
+			};
+			name = Release;
+		};
+		043D816B23F869480083927B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flappy OmarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sw2x.Flappy-OmarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flappy Omar";
+			};
+			name = Debug;
+		};
+		043D816C23F869480083927B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flappy OmarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sw2x.Flappy-OmarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flappy Omar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043D813123F869450083927B /* Build configuration list for PBXProject "Flappy Omar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D816223F869480083927B /* Debug */,
+				043D816323F869480083927B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043D816423F869480083927B /* Build configuration list for PBXNativeTarget "Flappy Omar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D816523F869480083927B /* Debug */,
+				043D816623F869480083927B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043D816723F869480083927B /* Build configuration list for PBXNativeTarget "Flappy OmarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D816823F869480083927B /* Debug */,
+				043D816923F869480083927B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043D816A23F869480083927B /* Build configuration list for PBXNativeTarget "Flappy OmarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D816B23F869480083927B /* Debug */,
+				043D816C23F869480083927B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043D812E23F869450083927B /* Project object */;
+}
