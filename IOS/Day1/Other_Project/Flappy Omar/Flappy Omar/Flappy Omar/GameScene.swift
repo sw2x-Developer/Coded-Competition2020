@@ -105,19 +105,21 @@ class GameScene: SKScene , SKPhysicsContactDelegate {
                     self.Omar.removeAllActions()
                 }
             } else if firstBody.categoryBitMask == CollisionBitMask.OmarCategory && secondBody.categoryBitMask == CollisionBitMask.CoinCategory {
+                if(isDead == false){
                 run(Sound)
                 score += 1
                 scoreLbl.text = "\(score)"
                  AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) { }
                 secondBody.node?.removeFromParent()
-                
+                }
             } else if firstBody.categoryBitMask == CollisionBitMask.CoinCategory && secondBody.categoryBitMask == CollisionBitMask.OmarCategory {
+                if(isDead == false){
                 run(Sound)
                 score += 1
                 scoreLbl.text = "\(score)"
                  AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate)) { }
                 firstBody.node?.removeFromParent()
-              
+                }
             }
     }
     
@@ -166,15 +168,13 @@ class GameScene: SKScene , SKPhysicsContactDelegate {
                }
            }
         
-        for touch in touches{
+        for _ in touches{
             
-            //1
             
             if isDead == true{
                 if restart{
                     if UserDefaults.standard.object(forKey: "highestScore") != nil {
                         let hscore = UserDefaults.standard.integer(forKey: "highestScore")
-                       // yooo
                         if hscore < Int(scoreLbl.text!)!{
                             UserDefaults.standard.set(scoreLbl.text, forKey: "highestScore")
                         }
@@ -191,7 +191,6 @@ class GameScene: SKScene , SKPhysicsContactDelegate {
     
     
    override func update(_ currentTime: TimeInterval) {
-            // Called before each frame is rendered
     
             if isStarted == true{
                 if isDead == false{
@@ -199,7 +198,6 @@ class GameScene: SKScene , SKPhysicsContactDelegate {
                         (node, error) in
                         let bg = node as! SKSpriteNode
                         bg.position = CGPoint(x: bg.position.x - 2, y: bg.position.y)
-                      // yooo
                         if bg.position.x <= -bg.size.width {
                             bg.position = CGPoint(x:bg.position.x + bg.size.width * 2, y:bg.position.y)
                         }
