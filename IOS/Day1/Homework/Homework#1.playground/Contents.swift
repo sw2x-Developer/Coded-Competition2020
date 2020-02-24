@@ -39,7 +39,7 @@ var percentsatmath: Double = 0.1
 */
 // put the code here below
 
-var finalGrade: Double = (((grade10 * percentgrade10) + (grade11 * percentgrade11) + (grade12 * percentgrade12)) * 0.75) * ((satenglish * percentsatenglish) + (satmath * percentsatmath))
+var finalGrade: Double = (((grade10 * percentgrade10) + (grade11 * percentgrade11) + (grade12 * percentgrade12)) * 0.75) + ((satenglish * percentsatenglish) + (satmath * percentsatmath))
 
 var name: String = "محمد هادي خاجه"
 
