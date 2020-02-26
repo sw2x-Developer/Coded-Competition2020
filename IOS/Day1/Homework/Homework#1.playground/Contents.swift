@@ -15,7 +15,8 @@
 var grade10: Double = 99.9
 var grade11: Double = 98.9
 var grade12: Double = 99.3
-var sat:Double = 100
+var satenglish:Double = 100
+var satmath: Double = 100
 
 
 /*:
@@ -27,8 +28,8 @@ var sat:Double = 100
 var percentgrade10: Double = 0.1
 var percentgrade11: Double = 0.2
 var percentgrade12: Double = 0.7
-var percentsat: Double = 1.0
-
+var percentsatenglish: Double = 0.15
+var percentsatmath: Double = 0.1
 
 /*:
  
@@ -38,7 +39,7 @@ var percentsat: Double = 1.0
 */
 // put the code here below
 
-var finalGrade: Double = (grade10 * percentgrade10) + (grade11 * percentgrade11) + (grade12 * percentgrade12) + (sat * percentsat)
+var finalGrade: Double = (((grade10 * percentgrade10) + (grade11 * percentgrade11) + (grade12 * percentgrade12)) * 0.75) + ((satenglish * percentsatenglish) + (satmath * percentsatmath))
 
 var name: String = "محمد هادي خاجه"
 
