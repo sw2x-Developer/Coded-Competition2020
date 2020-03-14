@@ -20,6 +20,15 @@ navigationItem.hidesBackButton = true
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+         super.viewWillAppear(animated)
+         navigationController?.setNavigationBarHidden(true, animated: animated)
+     }
+     override func viewWillDisappear(_ animated: Bool) {
+         super.viewWillDisappear(animated)
+         navigationController?.setNavigationBarHidden(false, animated: animated)
+     }
+     
     
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
            if(segue.destination.navigationItem.title == "احصائيات"){

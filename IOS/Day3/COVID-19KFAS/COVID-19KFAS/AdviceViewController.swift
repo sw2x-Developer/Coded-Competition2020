@@ -29,6 +29,7 @@ class AdviceViewController: UIViewController , UIScrollViewDelegate {
             
             let imgView = UIImageView(frame: frame)
             imgView.image = UIImage(named: value.value)
+            imgView.contentMode = .scaleAspectFit
             TextLabel.text = value.key
             self.scrollView.addSubview(imgView)
         }
