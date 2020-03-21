@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rtR-NZ-suP">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
@@ -21,17 +21,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="COVID_19KFAS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="logo_navy" translatesAutoresizingMaskIntoConstraints="NO" id="ggI-b5-ojh">
-                                <rect key="frame" x="248" y="68" width="128" height="76"/>
+                                <rect key="frame" x="248" y="112" width="128" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="76" id="iCb-Vf-sxT"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyp-72-ipZ">
-                                <rect key="frame" x="16" y="580" width="343" height="65"/>
+                                <rect key="frame" x="20" y="795" width="374" height="45"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="28"/>
                                 <state key="normal" title="ابدأ">
@@ -47,13 +47,13 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Choose" translatesAutoresizingMaskIntoConstraints="NO" id="vRV-Bh-Hlu">
-                                <rect key="frame" x="31" y="166" width="313" height="57.500000000000057"/>
+                                <rect key="frame" x="31" y="210" width="352" height="65.5"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="KFAS logo NEW" translatesAutoresizingMaskIntoConstraints="NO" id="5oZ-zI-GcX">
-                                <rect key="frame" x="51" y="57" width="122" height="87"/>
+                                <rect key="frame" x="51" y="101" width="122" height="87"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7t-WM-ehc">
-                                <rect key="frame" x="212" y="271" width="125" height="125"/>
+                                <rect key="frame" x="126" y="323" width="250" height="250"/>
                                 <state key="normal" image="ArabicIcon"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer. masksToBounds" value="YES"/>
@@ -66,7 +66,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KmR-rP-BAs">
-                                <rect key="frame" x="40" y="271" width="125" height="125"/>
+                                <rect key="frame" x="40" y="323" width="250" height="250"/>
                                 <state key="normal" image="EnglishIcon"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer. masksToBounds" value="YES"/>
@@ -117,39 +117,39 @@
             <objects>
                 <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="L81-oT-zPZ" customClass="MainViewController" customModule="COVID_19KFAS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jWa-I3-kmw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQh-XV-m25">
-                                <rect key="frame" x="195" y="196" width="164" height="162"/>
+                                <rect key="frame" x="234" y="240" width="160" height="162"/>
                                 <state key="normal" image="AdvicesIcon"/>
                                 <connections>
                                     <segue destination="rOS-Kr-eHe" kind="presentation" id="PLE-LI-Nqf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y60-2n-ZJW">
-                                <rect key="frame" x="195" y="396" width="160" height="162"/>
+                                <rect key="frame" x="234" y="440" width="160" height="162"/>
                                 <state key="normal" image="MakeSureIcon"/>
                                 <connections>
                                     <segue destination="vhW-ug-fIv" kind="presentation" id="2Dn-cL-566"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAN-St-Abg">
-                                <rect key="frame" x="16" y="196" width="160" height="162"/>
+                                <rect key="frame" x="20" y="240" width="160" height="162"/>
                                 <state key="normal" image="statIcon"/>
                                 <connections>
                                     <segue destination="q39-BG-JON" kind="presentation" id="Qqa-jv-W9X"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYJ-2g-DV3">
-                                <rect key="frame" x="16" y="396" width="160" height="162"/>
+                                <rect key="frame" x="20" y="440" width="160" height="162"/>
                                 <state key="normal" image="MapIcon"/>
                                 <connections>
                                     <segue destination="cwD-LB-lfW" kind="show" id="kxA-iD-vDL"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="كورونا الكويت" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Wn5-lf-Nn6">
-                                <rect key="frame" x="71" y="76" width="233" height="77"/>
+                                <rect key="frame" x="71" y="120" width="272" height="77"/>
                                 <fontDescription key="fontDescription" name="Cairo-Bold" family="Cairo" pointSize="41"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -187,7 +187,7 @@
             <objects>
                 <viewController storyboardIdentifier="Stats" id="q39-BG-JON" customClass="StatsViewController" customModule="COVID_19KFAS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1vI-TG-rSS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" fixedFrame="YES" image="kuwait" translatesAutoresizingMaskIntoConstraints="NO" id="Btu-92-0UB">
@@ -247,7 +247,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="الإحصائيات" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7UV-BY-viy">
-                                <rect key="frame" x="61" y="48" width="253" height="9"/>
+                                <rect key="frame" x="81" y="18" width="253" height="54"/>
                                 <viewLayoutGuide key="safeArea" id="XnH-2V-s51"/>
                                 <fontDescription key="fontDescription" name="Cairo-Bold" family="Cairo" pointSize="41"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -298,7 +298,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="o24-qi-tZW" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tIV-dB-Ctq">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -315,7 +315,7 @@
             <objects>
                 <viewController id="rOS-Kr-eHe" customClass="AdviceViewController" customModule="COVID_19KFAS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rcF-Cv-l5d">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TOd-MB-c8y">
@@ -324,10 +324,10 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="jmF-gn-1GV"/>
                             </scrollView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Efp-Cc-0Kk">
-                                <rect key="frame" x="16" y="580" width="343" height="37"/>
+                                <rect key="frame" x="20" y="741" width="374" height="37"/>
                             </pageControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Raw-ht-Bfy">
-                                <rect key="frame" x="16" y="436" width="343" height="136"/>
+                                <rect key="frame" x="20" y="597" width="374" height="136"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="136" id="bV0-u9-5JR"/>
                                 </constraints>
@@ -367,11 +367,11 @@
             <objects>
                 <viewController id="vhW-ug-fIv" customClass="SymptomsViewController" customModule="COVID_19KFAS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="je7-Md-ArJ" customClass="Symptoms">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUe-PZ-XMe">
-                                <rect key="frame" x="16" y="324" width="343" height="70"/>
+                                <rect key="frame" x="20" y="485" width="374" height="70"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="28"/>
                                 <state key="normal" title="نعم">
@@ -387,7 +387,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Eo-9c-9QJ">
-                                <rect key="frame" x="16" y="438" width="343" height="70"/>
+                                <rect key="frame" x="20" y="599" width="374" height="70"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="3Ps-tX-P3e"/>
@@ -406,7 +406,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="هل تشعر بالسخونه ؟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uff-Mv-VTz">
-                                <rect key="frame" x="31" y="182" width="313" height="86"/>
+                                <rect key="frame" x="31" y="182" width="352" height="86"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="86" id="xzt-9p-i0i"/>
                                 </constraints>
@@ -444,7 +444,7 @@
             <objects>
                 <viewController id="cwD-LB-lfW" customClass="DaweebViewController" customModule="COVID_19KFAS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bq6-1J-cZU">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.26363855600000002" green="0.13060459490000001" blue="0.33727285270000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="5rt-HX-2wq"/>
@@ -462,7 +462,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="eSc-be-dmH"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DeE-SE-ErR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
