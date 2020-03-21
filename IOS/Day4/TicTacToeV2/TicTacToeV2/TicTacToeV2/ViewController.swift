@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var singlebutton: UIButton!
+    @IBOutlet weak var daSwitch: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,5 +33,13 @@ class ViewController: UIViewController {
     }
     
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if daSwitch.isOn{
+        segue.destination.overrideUserInterfaceStyle = .dark
+        }else{
+            segue.destination.overrideUserInterfaceStyle = .light
+        }
+    }
+    
 }
 

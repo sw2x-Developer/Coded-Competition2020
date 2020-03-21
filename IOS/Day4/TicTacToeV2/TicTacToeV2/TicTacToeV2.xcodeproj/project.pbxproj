@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040F0C6B24264ED800B5064B /* GameSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 040F0C6A24264ED800B5064B /* GameSound.mp3 */; };
 		044BA90D2426036A0081679D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BA90C2426036A0081679D /* AppDelegate.swift */; };
 		044BA90F2426036A0081679D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BA90E2426036A0081679D /* SceneDelegate.swift */; };
 		044BA9112426036A0081679D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BA9102426036A0081679D /* ViewController.swift */; };
@@ -16,9 +17,12 @@
 		044BA92124260A4A0081679D /* IBElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BA92024260A4A0081679D /* IBElements.swift */; };
 		044BA923242626AE0081679D /* SingleplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BA922242626AE0081679D /* SingleplayerViewController.swift */; };
 		044BA925242626BA0081679D /* MultiplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BA924242626BA0081679D /* MultiplayerViewController.swift */; };
+		044BA9272426422E0081679D /* Vibrate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BA9262426422E0081679D /* Vibrate.swift */; };
+		044BA92924264B0A0081679D /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 044BA92824264B0A0081679D /* coin.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040F0C6A24264ED800B5064B /* GameSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameSound.mp3; sourceTree = "<group>"; };
 		044BA9092426036A0081679D /* TicTacToeV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToeV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044BA90C2426036A0081679D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		044BA90E2426036A0081679D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +34,8 @@
 		044BA92024260A4A0081679D /* IBElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBElements.swift; sourceTree = "<group>"; };
 		044BA922242626AE0081679D /* SingleplayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleplayerViewController.swift; sourceTree = "<group>"; };
 		044BA924242626BA0081679D /* MultiplayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerViewController.swift; sourceTree = "<group>"; };
+		044BA9262426422E0081679D /* Vibrate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibrate.swift; sourceTree = "<group>"; };
+		044BA92824264B0A0081679D /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +68,11 @@
 		044BA90B2426036A0081679D /* TicTacToeV2 */ = {
 			isa = PBXGroup;
 			children = (
+				044BA92824264B0A0081679D /* coin.mp3 */,
 				044BA90C2426036A0081679D /* AppDelegate.swift */,
 				044BA90E2426036A0081679D /* SceneDelegate.swift */,
 				044BA9102426036A0081679D /* ViewController.swift */,
+				044BA9262426422E0081679D /* Vibrate.swift */,
 				044BA9122426036A0081679D /* Main.storyboard */,
 				044BA922242626AE0081679D /* SingleplayerViewController.swift */,
 				044BA924242626BA0081679D /* MultiplayerViewController.swift */,
@@ -72,6 +80,7 @@
 				044BA917242603710081679D /* LaunchScreen.storyboard */,
 				044BA91A242603710081679D /* Info.plist */,
 				044BA92024260A4A0081679D /* IBElements.swift */,
+				040F0C6A24264ED800B5064B /* GameSound.mp3 */,
 			);
 			path = TicTacToeV2;
 			sourceTree = "<group>";
@@ -134,9 +143,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040F0C6B24264ED800B5064B /* GameSound.mp3 in Resources */,
 				044BA919242603710081679D /* LaunchScreen.storyboard in Resources */,
 				044BA916242603710081679D /* Assets.xcassets in Resources */,
 				044BA9142426036A0081679D /* Main.storyboard in Resources */,
+				044BA92924264B0A0081679D /* coin.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +163,7 @@
 				044BA90D2426036A0081679D /* AppDelegate.swift in Sources */,
 				044BA90F2426036A0081679D /* SceneDelegate.swift in Sources */,
 				044BA923242626AE0081679D /* SingleplayerViewController.swift in Sources */,
+				044BA9272426422E0081679D /* Vibrate.swift in Sources */,
 				044BA92124260A4A0081679D /* IBElements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
