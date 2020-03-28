@@ -139,6 +139,12 @@ extension OffersViewController: UITableViewDelegate , UITableViewDataSource {
          
     
      }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+             let webURL = URL(string: "https://talabat.com")!
+                                           UIApplication.shared.open(webURL)
+                             
+    }
      
      func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        
