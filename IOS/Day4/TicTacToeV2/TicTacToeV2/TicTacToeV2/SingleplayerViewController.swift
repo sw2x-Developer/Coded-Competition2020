@@ -64,6 +64,8 @@ class SingleplayerViewController: UIViewController {
         arrayofbuttons = [self.B1 , self.B2 , self.B3 , self.B4 , self.B5 , self.B6 , self.B7 , self.B8 , self.B9]
         navigationController?.setNavigationBarHidden(false, animated: true)
        playMusic()
+        print("OMAR YOU WILL NEVER FIND MY PHOTO !!!!!! 😂")
+        
     }
     
     func Reset(){

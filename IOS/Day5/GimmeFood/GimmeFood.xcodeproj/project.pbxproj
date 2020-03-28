@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040F0C9E242A00DB00B5064B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F0C9D242A00DB00B5064B /* AppDelegate.swift */; };
+		040F0CA0242A00DB00B5064B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F0C9F242A00DB00B5064B /* SceneDelegate.swift */; };
+		040F0CA2242A00DB00B5064B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F0CA1242A00DB00B5064B /* ViewController.swift */; };
+		040F0CA5242A00DB00B5064B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040F0CA3242A00DB00B5064B /* Main.storyboard */; };
+		040F0CA7242A00DC00B5064B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040F0CA6242A00DC00B5064B /* Assets.xcassets */; };
+		040F0CAA242A00DC00B5064B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040F0CA8242A00DC00B5064B /* LaunchScreen.storyboard */; };
+		040F0CB2242A062000B5064B /* IBElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F0CB1242A062000B5064B /* IBElements.swift */; };
+		040F0CB4242A255300B5064B /* Vars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F0CB3242A255300B5064B /* Vars.swift */; };
+		040F0CB6242A262B00B5064B /* ResturantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F0CB5242A262B00B5064B /* ResturantsViewController.swift */; };
+		040F0CBE242A674100B5064B /* ResturantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F0CBD242A674100B5064B /* ResturantCell.swift */; };
+		040F0CC4242BDC5B00B5064B /* ResturantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F0CC3242BDC5B00B5064B /* ResturantTableViewCell.swift */; };
+		0490D6DB242EC4660081897D /* ResturantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490D6DA242EC4660081897D /* ResturantDetailViewController.swift */; };
+		0490D6DD242F5EF10081897D /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490D6DC242F5EF10081897D /* OffersViewController.swift */; };
+		0490D6DF242F5F3A0081897D /* OffersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490D6DE242F5F3A0081897D /* OffersCell.swift */; };
+		0490D6E1242F5F770081897D /* OffersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490D6E0242F5F770081897D /* OffersTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040F0C9A242A00DB00B5064B /* GimmeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GimmeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040F0C9D242A00DB00B5064B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		040F0C9F242A00DB00B5064B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		040F0CA1242A00DB00B5064B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		040F0CA4242A00DB00B5064B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040F0CA6242A00DC00B5064B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040F0CA9242A00DC00B5064B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040F0CAB242A00DC00B5064B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040F0CB1242A062000B5064B /* IBElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBElements.swift; sourceTree = "<group>"; };
+		040F0CB3242A255300B5064B /* Vars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vars.swift; sourceTree = "<group>"; };
+		040F0CB5242A262B00B5064B /* ResturantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantsViewController.swift; sourceTree = "<group>"; };
+		040F0CBD242A674100B5064B /* ResturantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantCell.swift; sourceTree = "<group>"; };
+		040F0CC3242BDC5B00B5064B /* ResturantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantTableViewCell.swift; sourceTree = "<group>"; };
+		0490D6DA242EC4660081897D /* ResturantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantDetailViewController.swift; sourceTree = "<group>"; };
+		0490D6DC242F5EF10081897D /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		0490D6DE242F5F3A0081897D /* OffersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCell.swift; sourceTree = "<group>"; };
+		0490D6E0242F5F770081897D /* OffersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040F0C97242A00DB00B5064B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040F0C91242A00DB00B5064B = {
+			isa = PBXGroup;
+			children = (
+				040F0C9C242A00DB00B5064B /* GimmeFood */,
+				040F0C9B242A00DB00B5064B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040F0C9B242A00DB00B5064B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040F0C9A242A00DB00B5064B /* GimmeFood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040F0C9C242A00DB00B5064B /* GimmeFood */ = {
+			isa = PBXGroup;
+			children = (
+				040F0C9D242A00DB00B5064B /* AppDelegate.swift */,
+				040F0C9F242A00DB00B5064B /* SceneDelegate.swift */,
+				040F0CA1242A00DB00B5064B /* ViewController.swift */,
+				040F0CA3242A00DB00B5064B /* Main.storyboard */,
+				0490D6DA242EC4660081897D /* ResturantDetailViewController.swift */,
+				0490D6DC242F5EF10081897D /* OffersViewController.swift */,
+				040F0CB5242A262B00B5064B /* ResturantsViewController.swift */,
+				040F0CB3242A255300B5064B /* Vars.swift */,
+				040F0CB1242A062000B5064B /* IBElements.swift */,
+				040F0CA6242A00DC00B5064B /* Assets.xcassets */,
+				040F0CA8242A00DC00B5064B /* LaunchScreen.storyboard */,
+				040F0CAB242A00DC00B5064B /* Info.plist */,
+				040F0CBD242A674100B5064B /* ResturantCell.swift */,
+				0490D6DE242F5F3A0081897D /* OffersCell.swift */,
+				040F0CC3242BDC5B00B5064B /* ResturantTableViewCell.swift */,
+				0490D6E0242F5F770081897D /* OffersTableViewCell.swift */,
+			);
+			path = GimmeFood;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040F0C99242A00DB00B5064B /* GimmeFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040F0CAE242A00DC00B5064B /* Build configuration list for PBXNativeTarget "GimmeFood" */;
+			buildPhases = (
+				040F0C96242A00DB00B5064B /* Sources */,
+				040F0C97242A00DB00B5064B /* Frameworks */,
+				040F0C98242A00DB00B5064B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GimmeFood;
+			productName = GimmeFood;
+			productReference = 040F0C9A242A00DB00B5064B /* GimmeFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040F0C92242A00DB00B5064B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Sw2x;
+				TargetAttributes = {
+					040F0C99242A00DB00B5064B = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 040F0C95242A00DB00B5064B /* Build configuration list for PBXProject "GimmeFood" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040F0C91242A00DB00B5064B;
+			productRefGroup = 040F0C9B242A00DB00B5064B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040F0C99242A00DB00B5064B /* GimmeFood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040F0C98242A00DB00B5064B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F0CAA242A00DC00B5064B /* LaunchScreen.storyboard in Resources */,
+				040F0CA7242A00DC00B5064B /* Assets.xcassets in Resources */,
+				040F0CA5242A00DB00B5064B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040F0C96242A00DB00B5064B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F0CA2242A00DB00B5064B /* ViewController.swift in Sources */,
+				0490D6DB242EC4660081897D /* ResturantDetailViewController.swift in Sources */,
+				040F0CB6242A262B00B5064B /* ResturantsViewController.swift in Sources */,
+				040F0CC4242BDC5B00B5064B /* ResturantTableViewCell.swift in Sources */,
+				040F0C9E242A00DB00B5064B /* AppDelegate.swift in Sources */,
+				040F0CB4242A255300B5064B /* Vars.swift in Sources */,
+				040F0CA0242A00DB00B5064B /* SceneDelegate.swift in Sources */,
+				0490D6DF242F5F3A0081897D /* OffersCell.swift in Sources */,
+				0490D6E1242F5F770081897D /* OffersTableViewCell.swift in Sources */,
+				040F0CBE242A674100B5064B /* ResturantCell.swift in Sources */,
+				040F0CB2242A062000B5064B /* IBElements.swift in Sources */,
+				0490D6DD242F5EF10081897D /* OffersViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		040F0CA3242A00DB00B5064B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040F0CA4242A00DB00B5064B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040F0CA8242A00DC00B5064B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040F0CA9242A00DC00B5064B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040F0CAC242A00DC00B5064B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		040F0CAD242A00DC00B5064B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040F0CAF242A00DC00B5064B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DUUDN8Q7WV;
+				INFOPLIST_FILE = GimmeFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sw2x.GimmeFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040F0CB0242A00DC00B5064B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DUUDN8Q7WV;
+				INFOPLIST_FILE = GimmeFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sw2x.GimmeFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040F0C95242A00DB00B5064B /* Build configuration list for PBXProject "GimmeFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F0CAC242A00DC00B5064B /* Debug */,
+				040F0CAD242A00DC00B5064B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040F0CAE242A00DC00B5064B /* Build configuration list for PBXNativeTarget "GimmeFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F0CAF242A00DC00B5064B /* Debug */,
+				040F0CB0242A00DC00B5064B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040F0C92242A00DB00B5064B /* Project object */;
+}

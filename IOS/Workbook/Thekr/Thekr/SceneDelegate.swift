@@ -1,15 +1,13 @@
 //
 //  SceneDelegate.swift
-//  TicTacToeV2
+//  Thekr
 //
-//  Created by Sw2x on 3/21/20.
+//  Created by Sw2x on 3/27/20.
 //  Copyright © 2020 Sw2x. All rights reserved.
 //
 
 import UIKit
 
-
-@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?

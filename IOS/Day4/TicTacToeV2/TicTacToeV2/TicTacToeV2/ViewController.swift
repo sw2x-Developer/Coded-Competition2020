@@ -16,7 +16,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        overrideUserInterfaceStyle = .dark
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .dark
+        } else {
+            // Fallback on earlier versions
+        }
         }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -26,18 +30,30 @@ class ViewController: UIViewController {
     
     @IBAction func SwitchMode(_ sender: UISwitch) {
         if sender.isOn {
-            overrideUserInterfaceStyle = .dark
+            if #available(iOS 13.0, *) {
+                overrideUserInterfaceStyle = .dark
+            } else {
+                String.popAlert(presenter: self, Title: "Dark Mode", message: "Sorry , Dark mode is only available for IOS 13.0 and up", actionString: ":(")
+            }
         }else{
-            overrideUserInterfaceStyle = .light
+            if #available(iOS 13.0, *) {
+                overrideUserInterfaceStyle = .light
+            } else {
+                    String.popAlert(presenter: self, Title: "Dark Mode", message: "Sorry , Dark mode is only available for IOS 13.0 and up", actionString: ":(")
+            }
         }
     }
     
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if daSwitch.isOn{
-        segue.destination.overrideUserInterfaceStyle = .dark
+            if #available(iOS 13.0, *) {
+                segue.destination.overrideUserInterfaceStyle = .dark
+            }
         }else{
-            segue.destination.overrideUserInterfaceStyle = .light
+            if #available(iOS 13.0, *) {
+                segue.destination.overrideUserInterfaceStyle = .light
+            }
         }
     }
     
